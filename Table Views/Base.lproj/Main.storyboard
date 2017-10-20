@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iYb-za-BhE">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="npC-dl-MUc">
@@ -44,7 +44,7 @@
                         <constraints>
                             <constraint firstItem="iYb-za-BhE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="56s-VL-wqk"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iYb-za-BhE" secondAttribute="bottom" id="8jr-fI-yOP"/>
-                            <constraint firstItem="iYb-za-BhE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IRx-cb-KBO"/>
+                            <constraint firstItem="iYb-za-BhE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="IRx-cb-KBO"/>
                             <constraint firstAttribute="trailing" secondItem="iYb-za-BhE" secondAttribute="trailing" id="NX0-60-zap"/>
                         </constraints>
                     </view>
